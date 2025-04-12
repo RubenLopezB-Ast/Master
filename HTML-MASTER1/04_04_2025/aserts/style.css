@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    padding: 20px;
+    background-color: black;
+    color: rgb(170, 196, 219);
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.9s;
+}
+
+a:hover{
+    color: blue;
+}
+
+h1, h2, h3, h4{
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    min-height: 121px;
+}
+
+header ul{
+    text-align: center;
+}
+
+@media (min-whidth: 750px) {
+    header >nav>ul{
+
+    (seguir viendo en video)
+    }
+    
+}
+
