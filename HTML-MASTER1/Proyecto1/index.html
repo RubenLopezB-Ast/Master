@@ -7,9 +7,9 @@
     <meta name="keywards" content="recetas, historia, ingredientes, antiguedad, sal, recipe, antiguedades">
     <meta name="author" content="Rubén López">
     <meta name="copyright" content="RLB">
-    
+    <link rel="stylesheet" href="style.css">
     <title>Cómeme la historia</title>
-    <link rel="stylesheet" hrf="style.css">
+    
 
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -19,9 +19,12 @@
 <body>
     <header>
     <h2><strong>Sabores de leyenda</strong></h2>
-    <h1 style="color: firebrick;">CÓMEME LA HISTORIA</h1>
-    <p><em>Todas las recetas tienen su historia ¡¡atrévete a descubrirla!!</em></p>
-    <nav>
+    <h1>CÓMEME LA HISTORIA</h1>
+    <a href="#miFooter">
+    </a>
+    <nav class="menu">
+    
+        </a>
         <ul>
             <li>
                 <a href="#inicio">Inicio</a>
@@ -41,10 +44,17 @@
         </ul>   
     </nav>
     </header>
+    <div class="banner">
+        <img src="./imagenes/bannerComida.png" alt="Banner con plato de comida">
+      </div>
     <main>
         <section id="Inicio">
             <h2>Inicio</h2>
                 <article>
+                    <img
+            src="./imagenes/CaballeroMedieval.png"
+            alt="Caballero Medival comiendo en cocina contemporanea"
+            />
                     <P>
                     Bienvenid@ a CÓMEME LA HISTORIA
                     Donde la historia… ¡se cocina y se come!
@@ -59,15 +69,16 @@
                     épocas enteras. Porque detrás de cada plato hay una buena historia... y aquí nos las comemos 
                     todas.
                     </P>
-                    <img
-                    src="./imagenes/CaballeroMedieval.png"
-                    alt="Caballero Medival comiendo en cocina contemporanea"
-                    />
+                   
                 </article>
         </section>
         <section id="recetas">
             <h2>Recetas</h2>
                 <article>
+                    <img
+                    src="./imagenes/ramen.png"
+                    alt="Dibujo de plato de ramen con tematica anime"
+                    />
                 <p>
                 Recetas con Historia
                 Cocina platos legendarios con sabor a pasado (y mucho estilo)
@@ -83,15 +94,16 @@
                 Y algún que otro dato para fardar en la próxima cena con amigos
                 Cocina, aprende y sobre todo… ¡cómete la historia!
                 </p>
-                <img
-                src="./imagenes/ramen.png"
-                alt="Dibujo de plato de ramen con tematica anime"
-                />
+               
                 </article>
         </section>
         <section id="ingredientes">
         <h2>Ingredientes</h2>
             <article>
+                <img
+                src="./imagenes/tomate.png"
+                alt="Dibujo de un tomate viendo el mar"
+                />
                 <p>
                 Porque aquí hasta la pimienta tiene algo que contar
                 Vale, sí… todos sabemos que sin ingredientes no hay receta. Pero en CÓMEME LA HISTORIA no te 
@@ -107,15 +119,16 @@
                 Porque sí, vas a cocinar, pero también vas a aprender a mirar tu despensa con otros ojos. 
                 Spoiler: es más épica de lo que parece.
                 </p>
-                <img
-                src="./imagenes/tomate.png"
-                alt="Dibujo de un tomate viendo el mar"
-                />
+                
             </article>
         </section>
         <section id="curiosidades">
             <h2>Curiosidades</h2>
             <article>
+                <img
+                src="./imagenes/reina comiendo pizza.png"
+                alt="Reina comiendo pizza"
+                />
                 <p>
                 Curiosidades que te van a dejar con la boca abierta (y con hambre)
                 Sabores con chisme histórico incluido
@@ -131,15 +144,15 @@
                 Porque comer está bien, pero comer sabiendo que ese plato ayudó a cambiar la historia… eso ya es 
                 otro nivel.
                 </p>
-                <img
-                src="./imagenes/reina comiendo pizza.png"
-                alt="Reina comiendo pizza"
-                />
             </article>
         </section>
         <section id="contacto">
             <h2>Contacto</h2>
             <article>
+                <img
+                src="./imagenes/postalfruta.png"
+                alt="Postal con fruta psicodélica"
+                />
                 <p>
                 ¿Nos cuentas algo sabroso?
                 ¡Hablemos! De comida, de historia… o de lo que surja
@@ -154,15 +167,13 @@
                 Nada de formularios aburridos. Escríbenos como si nos conociéramos de toda la vida.
                 Porque aquí, la historia se cuenta mejor entre fogones y con confianza.
                 </p>
-                <img
-                src="./imagenes/postalfruta.png"
-                alt="Postal con fruta psicodélica"
-                />
             </article>
         </section>
     </main>
-    <footer>
-        <p style="color: blueviolet;"> copyright 2025 - RLB</p>
+    <footer id="miFooter" class="footer">
+        <p class="copyright"> copyright 2025 - RLB</p>
+        <a class="navbar-logo" href="#">
+            <img src="./imagenes/LogoReducidoCLH.png" id="imagenLogo">
     </footer>
 </body>
 </html>
