@@ -48,7 +48,7 @@ img {
   }
 
   h2{
-    text-align: center;
+    text-align: left;
   }
 
   .footer {
@@ -133,4 +133,15 @@ img {
   .banner img:hover {
     transform: scale(1.1);
     cursor: -moz-zoom-in;
+  }
+
+  .texto-derecha{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .texto-derecha img{
+    max-width: 300px;
+    height: auto;
   }
