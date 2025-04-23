@@ -6,29 +6,25 @@
 .nav-logo{
     display: inline-block;
     vertical-align: middle;
-    width: 70;
+    width: 70px;
 }
 
 ul{
     list-style: none;
 }
 
-img {
-    border: 1px solid #dddddd;
-    border-radius: 35px;
-    padding: 5px;
-    width: 150px;
-  }
-  
+
   img:hover {
     box-shadow: 0 0 2px 1px rgba(118, 0, 186, 0.5);
   }
   
-  a img {
+img, a img {
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 35px;
     padding: 5px;
     width: 150px;
+    height: auto;
+    max-width: 100%;
   }
   
   a:hover {
@@ -36,8 +32,7 @@ img {
   }
 
   img {
-    max-width: auto;
-    height: auto;
+    max-width: 100%;
   }
 
   h1{
@@ -68,8 +63,8 @@ img {
   }
   
   .footer .logo-footer {
-    max-width: 2px;
-    height: 5px;
+    max-width: 50px;
+    height: auto;
    
   }
   
@@ -86,8 +81,8 @@ img {
   }
   
   .menu {
-    background-color: #2c3e50;
-    font-family:'Times New Roman', Times, serif
+    background-color: bisque;
+    font-family:'Times New Roman', Times, serif;
     padding: 10px 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
