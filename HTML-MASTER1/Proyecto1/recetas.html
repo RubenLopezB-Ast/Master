@@ -12,18 +12,27 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="shortcut icon" href="imagenes/LogoCompletoCLH.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Germania+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header>
+    <header id="header-recetas">
         <h1>Recetas</h1>
         <article class="texto-derecha">
+            <div class="cat">
             <img
     src="./imagenes/vikingococinando.png"
     alt="Vikingo cocinando"
     />
-            <P>
-                <br><br>Aquí no cocinamos con prisas ni con microondas... ¡Aquí viajamos en el tiempo con 
+    </div>
+            <div class="contenido-texto">
+            <P style="text-align: justify;">
+                <br><br><b><u>A</b>q</u>uí no cocinamos con prisas ni con microondas... ¡Aquí viajamos en el tiempo con 
                 cada cucharada! Prepárate para descubrir recetas que han alimentado imperios, dado fuerza a 
                 exploradores y endulzado la vida a reyes y campesinos por igual.<br>
 
@@ -37,7 +46,41 @@
 
 
             </P>
+            </div>
         </article>
+        <div class="dropdown">
+            <button class="dropdown-button">LÍNEA TEMPORAL</button>
+            <div class="dropdown-content">
+                <div class="submenu">
+                <a href="#" class="submenu-titulo">Edad Antigua</a>
+                <div class="submenu-contenido">
+                    <a href="receta1ea.html">Pan ácimo - Egipto </a>
+                    <a href="#">Receta 2</a>
+                </div>
+                </div>
+                <div class="submenu">
+                    <a href="#" class="submenu-titulo">Edad Media</a>
+                    <div class="submenu-contenido">
+                        <a href="#">Receta 1 M</a>
+                        <a href="#">Receta 2 M</a>
+                    </div>
+                    </div>
+                    <div class="submenu">
+                        <a href="#" class="submenu-titulo">Edad Moderna</a>
+                        <div class="submenu-contenido">
+                            <a href="#">Receta 1 Mo</a>
+                            <a href="#">Receta 2 Mo</a>
+                        </div>
+                        </div>
+                    <div class="submenu">
+                        <a href="#" class="submenu-titulo">Edad Contemporanea</a>
+                        <div class="submenu-contenido">
+                            <a href="#">Receta 1 C</a>
+                            <a href="#">Receta 2 C</a>
+                        </div>
+                        </div>
+            </div>
+        </div>
     </header>
     <footer id="miFooter" class="footer">
         <p class="copyright"> copyright 2025 - RLB</p>
