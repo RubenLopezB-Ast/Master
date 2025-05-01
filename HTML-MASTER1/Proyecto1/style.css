@@ -407,3 +407,16 @@ p {
     opacity: 0;
   }
 }
+
+
+
+td {
+  border: 5px solid blueviolet;
+}
+
+table {
+  border: 0cap solid #000;
+  border-collapse: separate;
+  border-spacing: 5px;
+  empty-cells: hide;
+}
